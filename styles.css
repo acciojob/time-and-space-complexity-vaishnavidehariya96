@@ -1,1 +1,52 @@
-/*  your css code here. If applicable */
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  padding: 40px;
+  line-height: 1.6;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #004aad;
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+/* Paragraphs */
+p {
+  background-color: #ffffff;
+  border-left: 5px solid #ff4b4b;
+  padding: 15px 20px;
+  margin: 15px auto;
+  width: 80%;
+  font-size: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Bold Text */
+b {
+  color: #ff4b4b;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  p {
+    width: 100%;
+  }
+}
