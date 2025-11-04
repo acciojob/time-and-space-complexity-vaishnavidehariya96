@@ -1,52 +1,35 @@
-/* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body Styling */
+/* General Page Styling */
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: #f4f7fa;
-  color: #333;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9fafc;
+  color: #2c3e50;
+  margin: 0;
   padding: 40px;
   line-height: 1.6;
 }
 
-/* Heading */
+/* Heading Styling */
 h1 {
   text-align: center;
-  color: #004aad;
-  margin-bottom: 25px;
-  font-size: 2rem;
+  color: #007bff;
+  font-size: 32px;
+  margin-bottom: 30px;
 }
 
-/* Paragraphs */
+/* Paragraph Styling */
 p {
+  font-size: 18px;
   background-color: #ffffff;
-  border-left: 5px solid #ff4b4b;
+  border-left: 4px solid #007bff;
   padding: 15px 20px;
-  margin: 15px auto;
-  width: 80%;
-  font-size: 1rem;
-  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-/* Bold Text */
+/* Bold Text Styling */
 b {
-  color: #ff4b4b;
-  font-weight: bold;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-  body {
-    padding: 20px;
-  }
-
-  p {
-    width: 100%;
-  }
+  color: #d63384;
+  font-weight: 700;
 }
